@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body {
+    position: relative;
+    background-color: rgb(236, 71, 71);
+    display: flex;
+    flex-wrap: wrap;    
+    flex-basis: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.containerCircle{     
+    background-color: brown;
+    padding: 0.8rem;    
+}
+
+.camera {
+    display: flex;
+    background: black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: auto 0.5rem;
+    border: 0.5rem solid #D7D7D7;
+    padding: 0%;
+}
+
+video{ 
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  border-radius: 100%;
+  position: relative; 
+}
+
+.circleGreen{
+    background-color: green;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: auto 0.5rem;    
+}
+
+.circleYellow{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: auto 0.5rem;
+}
+
+.containerImg{        
+    display: flex; 
+    background-color: #92C5FC;  
+    padding: 0.5rem;    
+    height: 40vh;
+    width:40vw; 
+    border: 1rem solid #D7D7D7; 
+    margin: 0.4rem 0.3rem;   
+}
+
+.img{
+    width: 100%;
+}
+
+.containerTxt{  
+    background-color: #9bfc92;
+    padding: 0.5rem;    
+    min-height: 30vh;
+    min-width: 30vw;
+    border: 1rem solid #D7D7D7;
+    margin: 0 0.3rem;
+    list-style-type: decimal;    
+    font-size: 1rem;
+    color:rgb(79, 33, 180);
+    font-family: 'VT323', monospace;
+    font-style: italic;
+    align-items: center;
+}
+
+.containerButtons{    
+    margin: 0 auto;   
+} 
+
+.bt{
+    background-color: yellow;
+    font-size: 1.2rem;
+    margin: 0.8rem auto;
+    font-family: 'VT323', monospace;
+}
+
+#btSearch{    
+    background-color: brown;
+    background-image:url('src/assets/lupa.png');
+    background-repeat:no-repeat;
+    padding: 2rem;         
+    background-position: center;      
+}
+#btQr{    
+    background-color: brown;
+    padding: 2rem;         
+    font-size: 2rem;
+    color: black;
+}
+.modal-body{
+    margin: 0 auto;    
+}
+
+input{    
+    border-radius: 1.5rem;   
+    padding: 1rem 1rem;
+    font-size: 1.5rem;     
+    font-family: 'VT323', monospace;
+}
+
+.containerModal{       
+    background-color:  rgb(236, 71, 71);
+}
+
+label{    
+    border-radius: 1rem;
+    background-color: rgb(229, 249, 200);
+    margin: 0 auto;
+    width: 55vw;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    font-family: 'VT323', monospace;    
+}
+
+dialog, .containerModal1{
+    flex-basis: 100%;
+    justify-content: center;
+    position: fixed;
+    margin-bottom: 0;
+    background-color: rgb(236, 71, 71);
+    font-family: 'VT323', monospace;
+}
+
+dialog .containerLbModalNull label{
+    display: flex;  
+    border-radius: 1rem;
+    background-color: greenyellow;
+    margin: 0.3rem auto;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 0.3rem;   
+    font-family: 'VT323', monospace;
+}
+
+dialog .containerModalButtons{
+    display: flex;
+    justify-content: center;
+    font-family: 'VT323', monospace;
+    margin: 0.5rem auto;
+}
+dialog .containerModalButtonsNull{
+    display: flex;
+    justify-content: center;
+    margin: 0.3rem auto;
+    font-family: 'VT323', monospace;
+}
+
