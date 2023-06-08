@@ -185,9 +185,7 @@ export default {
       nameS :  '',
  }), 
   methods: {
- async n(){
-  nameS = false;
- },
+
   async clean(){
     document.querySelector('.containerTxt').innerHTML =  ``
  
